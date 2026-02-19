@@ -11,10 +11,20 @@ namespace VariousTypes
             int int3 = 6;
             long int4 = 8;
 
+            char char1 = '\u2661';
+            char char2 = '\u2605';
+            char char3 = '\uFF04';
+            char char4 = '\u2691';
+
             Console.WriteLine(int1);
             Console.WriteLine(int2);
             Console.WriteLine(int3);
             Console.WriteLine(int4);
+
+            Console.WriteLine(char1);
+            Console.WriteLine(char2);
+            Console.WriteLine(char3);
+            Console.WriteLine(char4);
         }
     }
 }
