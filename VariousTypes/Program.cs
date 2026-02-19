@@ -16,6 +16,11 @@ namespace VariousTypes
             char char3 = '\uFF04';
             char char4 = '\u2691';
 
+            float ft1 = 1.5f;
+            double ft2 = 3.5;
+            decimal ft3 = 5.5m;
+
+
             Console.WriteLine(int1);
             Console.WriteLine(int2);
             Console.WriteLine(int3);
@@ -25,6 +30,10 @@ namespace VariousTypes
             Console.WriteLine(char2);
             Console.WriteLine(char3);
             Console.WriteLine(char4);
+
+            Console.WriteLine(ft1);
+            Console.WriteLine(ft2);
+            Console.WriteLine(ft3);
         }
     }
 }
