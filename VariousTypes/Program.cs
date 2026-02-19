@@ -20,6 +20,8 @@ namespace VariousTypes
             double ft2 = 3.5;
             decimal ft3 = 5.5m;
 
+            bool bl1 = true;
+            bool bl2 = false;
 
             Console.WriteLine(int1);
             Console.WriteLine(int2);
@@ -34,6 +36,9 @@ namespace VariousTypes
             Console.WriteLine(ft1);
             Console.WriteLine(ft2);
             Console.WriteLine(ft3);
+
+            Console.WriteLine(bl1);
+            Console.WriteLine(bl2);
         }
     }
 }
